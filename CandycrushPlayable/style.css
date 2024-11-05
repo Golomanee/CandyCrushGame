@@ -1,0 +1,33 @@
+.game {
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    /* 10 columns of 50px each */
+    grid-template-rows: repeat(10, 50px);
+    /* 10 rows of 50px each */
+}
+
+.candy {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.black {
+    background-color: black;
+}
